@@ -1,5 +1,5 @@
-body p{
-    width: 5px;
-    height: 5px;
-    margin: auto;
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
