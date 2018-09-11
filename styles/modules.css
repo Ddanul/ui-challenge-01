@@ -15,16 +15,6 @@ section{
     background-color: blue;
     
 }
-.top{
-    width: 480px;
-    height: 125px;        
-}
-.flex1{
-    width: 480px;
-    height: 250px;
-    display: flex;
-    flex-wrap: wrap;
-}
 .c{
     background-color: lightgreen;
 }
@@ -43,19 +33,52 @@ section{
 .h{
     background-color: lightslategray;
 }
-.flex2{
-    width: 480px;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.center{
-    width: 240px;
-    height: 250px;
-}
 .i{
     width: 480px;
     height: 80px;
     background-color: orange;
+}
+
+@media(min-width: 768px){
+    body{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .a{
+        width: 960px;
+        height: 100px;
+        background-color: #9900FF;
+    }
+    .b{
+        width: 200px;
+        height: 600px;
+        background-color: #00FF40;
+        float: left;
+        
+    }
+    .c{
+        background-color: #90E8EE;
+    }
+    .d{
+        background-color: #DDE6AD;
+    }
+    .e{
+        background-color: #E1C0FF;
+    }
+    .f{
+        background-color: #8CD2BD;
+    }
+    .g{
+        background-color: #F6FF7A;
+    }
+    .h{
+        background-color: #99778B;
+    }
+    .i{
+        width: 760px;
+        height: 150px;
+        background-color: #FF1E00;
+        float: left;
+        
+    }
 }

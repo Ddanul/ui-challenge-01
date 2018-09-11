@@ -1,4 +1,4 @@
-@media(min-width: 768px){
+/* @media(min-width: 768px){
     body{
         width: 960px;
         margin: 0 auto;
@@ -59,5 +59,50 @@
         background-color: #FF1E00;
         float: left;
         
+    }
+} */
+
+.top{
+    width: 480px;
+    height: 125px;        
+}
+.center{
+    width: 240px;
+    height: 250px;
+}
+.flex1{
+    width: 480px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex2{
+    width: 480px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 768px){
+    .top{
+        width: 380px;
+        height: 200px;
+    }
+    .center{
+        width: 190px;
+        height: 250px;
+    }
+    .flex1{
+        width: 760px;
+        height: 200px;
+        display: flex;
+    }
+    .flex2{
+        width: 760px;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
